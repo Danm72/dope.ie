@@ -18,14 +18,16 @@
 			    background-size: cover;
 			}
 			
-			.dope-text {
-			    text-align: end;
-			    width: 100%;
-			    font-size: 60px;
-			    color: white;
+			.dope {
 			    position: absolute;
 			    bottom: 50px;
 			    right: 100px;
+			}
+			
+			.dope-text {
+			    text-align: end;
+			    font-size: 60px;
+			    color: white;
 			}
 			
 			/* http://meyerweb.com/eric/tools/css/reset/ 
@@ -92,7 +94,12 @@
 	</head>
 	<body >
 		<div class="bg"></div>
-		<div class="dope-text">YA DOPE</div>
+		<div class="dope">
+			<p class="dope-text">YA DOPE</p>
+			<a class="github-button" href="https://github.com/danm72/dope.ie" data-icon="octicon-star" aria-label="Star danm72/dope.ie on GitHub">Star</a>
+		</div>
+		
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
 </html>
 
